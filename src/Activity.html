@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-between;
+            margin: 0px;
+        }
+
+        .box {
+            border: 2px solid #000;
+            padding: 20px;
+            width: 500px; 
+            height: 200px; 
+            margin: 20px;
+            
+        }
+
+        .m {
+            color: white;
+            background-color: green;
+            padding: 10px;
+        }
+
+        .footer {
+            border: 2px solid #000;
+            padding: 20px;
+            text-align: center;
+            margin: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            background-color: black;
+            color: white;
+        }
+
+        .responsive-box {
+            display: flex;
+            justify-content: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <div class="m">
+        <h1 style="text-align: center;">Welcome to Your Website Task</h1>
+        <div style="text-align: center; display: flex; justify-content: center;">
+            <p style="margin: 0 10px;">Home</p>
+            <p style="margin: 0 10px;">About</p>
+            <p style="margin: 0 10px;">Contact</p>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="box">
+                <div style="color: green"> <h2>About CSS</h2> </div>
+                <p>Cascading Style Sheets (CSS) allow you to style and layout your web pages, adding colors, spacing, and more.</p>
+            </div>
+
+            <div class="box">
+                <div style="color: green; font-size: larger;"> <h4>Box Model</h4></div>
+                <p>The CSS box model describes the rectangular boxes generated for elements. It includes margins, borders, padding, and the actual content.</p>
+            </div>
+        </div>
+
+        <div class="responsive-box">
+            <div class="box">
+                <div style="color: green"> <h3>Responsive Design</h3></div>
+                <p>Responsive design ensures your webpage looks great on all devices, from desktops to mobile phones.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <p>Created by Vaibhav Bhatt</p>
+        <p>Follow us on | Instagram | Twitter | Linkedin</p>
+    </div>
+</body>
+</html>
